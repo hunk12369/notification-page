@@ -1,0 +1,49 @@
+.notification-container {
+    --very_light_grayish_blue: hsl(210, 60%, 98%);
+    --grayish_blue: hsl(219, 14%, 63%);
+    --dark_grayish_blue: hsl(219, 12%, 42%);
+    --very_dark_blue: hsl(224, 21%, 14%);
+    --font-family-ld: 'Lexend Deca', sans-serif;
+    --font-family-pk: 'Plus Jakarta Sans', sans-serif;    
+    --red: hsl(1, 90%, 64%);
+    display: flex;
+    text-align: left;
+    
+    font-family: var(--font-family-pk);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--very_light_grayish_blue);
+    margin-bottom: 15px;
+
+}
+.notification-container-content p {
+    padding-left: 20px;
+}
+.notification-container-content p {
+    color: var(--dark_grayish_blue) ;
+    font-size: 16px;
+    
+    font-weight: 500;
+}
+.notification-container-content button {
+    background-color: var(--red);
+    color: var(--red);
+    border-radius: 100%;
+    border: none;
+    width: 10px;
+    height: 12px;
+    
+}
+.notification-container-content span {
+    color: var(--very_dark_blue) ;
+    font-size: 16px;
+    font-family: var(--font-family-pk);
+    font-weight: 800;
+}
+.time {
+    color: var(--grayish_blue);
+}
+.notification-container img {
+    width: 58px;
+    height: 58px;
+}
